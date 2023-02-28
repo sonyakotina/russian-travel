@@ -1,7 +1,11 @@
 .lead__image {
+    margin: 0px auto;
     padding-top: 64px;
-    max-width: 100%;
-    text-align: center;
+    max-width: 1500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
 @media screen and (max-width: 767px) {
