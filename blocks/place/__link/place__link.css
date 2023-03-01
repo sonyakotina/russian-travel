@@ -1,4 +1,4 @@
-.place__website__link {
+.place__link {
     color: #fff;
     font-size: 18px;
     font-weight: normal;
@@ -7,6 +7,6 @@
     transition: opacity .2s ease-out;
 }
 
-.place__website__link:hover {
+.place__link:hover {
     opacity: .8;
 }

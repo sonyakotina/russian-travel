@@ -1,0 +1,19 @@
+.footer__li {
+    display: block;
+    padding-right: 18px;
+}
+
+.footer__li:last-of-type {
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__li {
+        padding-right: 0px;
+        padding-bottom: 32px;
+    }
+
+    .footer__li:last-of-type {
+        padding-bottom: 48px;
+    }
+}
